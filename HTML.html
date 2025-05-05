@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Ulang Tahun!</h1>
+        <p>Dari Rakyat Jelata Untuk Lovelia</p>
+    </header>
+    <main>
+        <h2>Hari yang Penuh Kebahagiaan</h2>
+        <p>Semoga hari ini membawa kebahagiaan dan kenangan indah untukmu.</p>
+        <p>Sebelum menekan tombol ini, janji jangan marah, semua yang ada di dalam tombol ini hanya bercanda.</p>
+        <a href="#celebrate" class="btn" onclick="showMessage(); showImage(); startConfetti()">KLIK INI</a>
+        <div id="celebrationContainer" style="display: none; text-align: center; margin-top: 20px;">
+            <img id="celebrationImage" src="hahaha tua.jpg" alt="Perayaan" style="width: 500px;">
+            <h2 style="margin-top: 10px;">🎂👑✨ Selamat Ulang Tahun, Lovi Lovelia sang Virtual Princess! ✨👑🎂</h2>
+            <div style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; display: inline-block; text-align: left;">
+                <p>Hari ini kerajaan Lovelia tambah meriah,</p>
+                <p>Karena sang putri tambah... TUA! Hahaha tua~ 🎉😂</p>
+                <p>Semoga makin kece, makin lucu, dan makin... tua dikit gapapa deh,</p>
+                <p>yang penting tetap nge-VTuber sambil ngakak-ngakak bareng Lovichi~ 💗</p>
+                <p>Teruslah menyebarkan tawa, chaos, dan energy positif-mu ke seluruh penjuru dunia virtual!</p>
+                <p>Jangan lupa: umur boleh nambah, tapi mental tetap 2D! 🤣💫</p>
+                <p>🎁🎉 Happy Birthday Lovi!</p>
+                <p>Dari kami para rakyat jelata yang setia menonton sambil berkata:</p>
+                <p><strong>"Wah, Lovi... HAHAHA TUA!!" 💀👑</strong></p>
+            </div>
+        </div>
+        <h3></h3>
+        <video controls autoplay loop style="max-width: 100%; width: 800px;">
+            <source src="OIIAOIIA CAT Happy Birthday to You  Spinning Cat Uia Meme - Nazar's Memes (1080p, h264).mp4" type="video/mp4">
+            Browser Anda tidak mendukung elemen video.
+        </video>
+        <img id="movingGif" src="cat.gif" alt="GIF bergerak" style="position: absolute; width: 100px;">
+        <img id="movingGif" src="200w.gif" alt="GIF bergerak" style="position: absolute; width: 100px;">
+    </main>
+    <canvas id="confettiCanvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; display: none;"></canvas>
+    <script src="Java.js"></script>
+</body>
+</html>

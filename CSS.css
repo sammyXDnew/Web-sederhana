@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #3794ff;
+    color: #333;
+}
+header {
+    background-color: #040bd1;
+    color: white;
+    padding: 20px;
+}
+main {
+    margin: 20px;
+}
+footer {
+    background-color: #058cfa;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.btn {
+    background-color: #1437ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #ff85c0;
+}
